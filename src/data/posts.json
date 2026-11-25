@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "usuario": "ann.takamaki",
+    "avatar": "/images/avatar-ann.svg",
+    "imagem": "/images/post-ann.svg",
+    "alt": "Uma pilha alta de crepes com chantilly, calda de chocolate e morangos por cima",
+    "legenda": "O crepe perfeito: 12 camadas, morango e muita calda. É isso que eu mais quero ver hoje!",
+    "tempo": "há 2 horas",
+    "curtidas": 1280,
+    "comentarios": [
+      { "usuario": "ryuji.sakamoto", "texto": "Guarda um pedaço pra mim!" },
+      { "usuario": "futaba.sakura", "texto": "Isso aí é mais alto que o meu monitor." },
+      { "usuario": "yusuke.kitagawa", "texto": "A composição de cores está esplêndida." }
+    ]
+  },
+  {
+    "id": 2,
+    "usuario": "ryuji.sakamoto",
+    "avatar": "/images/avatar-ryuji.svg",
+    "imagem": "/images/post-ryuji.svg",
+    "alt": "Um troféu dourado com o número 1 em frente a uma pista de corrida vermelha",
+    "legenda": "Recorde batido! O time inteiro cruzou a linha de chegada junto. Era isso que eu queria ver!",
+    "tempo": "há 5 horas",
+    "curtidas": 940,
+    "comentarios": [
+      { "usuario": "ann.takamaki", "texto": "Eu sabia que vocês iam conseguir!" },
+      { "usuario": "futaba.sakura", "texto": "Fiz as contas: foi 0,3 segundo mais rápido." }
+    ]
+  },
+  {
+    "id": 3,
+    "usuario": "futaba.sakura",
+    "avatar": "/images/avatar-futaba.svg",
+    "imagem": "/images/post-futaba.svg",
+    "alt": "Três monitores escuros com linhas de código verdes em cima de uma mesa",
+    "legenda": "Setup novo pronto: três telas e zero bug no chefão final. O sonho de todo mundo, né?",
+    "tempo": "há 1 dia",
+    "curtidas": 2105,
+    "comentarios": [
+      { "usuario": "ryuji.sakamoto", "texto": "Me empresta uma tela?" },
+      { "usuario": "yusuke.kitagawa", "texto": "Esse brilho verde daria uma bela pintura." }
+    ]
+  },
+  {
+    "id": 4,
+    "usuario": "yusuke.kitagawa",
+    "avatar": "/images/avatar-yusuke.svg",
+    "imagem": "/images/post-yusuke.svg",
+    "alt": "Um quadro abstrato com círculo azul, retângulo vermelho e forma amarela pendurado em uma parede de galeria",
+    "legenda": "Minha tela finalmente está exposta na galeria. Esperei muito para ver isso.",
+    "tempo": "há 2 dias",
+    "curtidas": 1534,
+    "comentarios": [
+      { "usuario": "ann.takamaki", "texto": "Que lindo! Vou levar crepe pra comemorar." },
+      { "usuario": "ryuji.sakamoto", "texto": "Parabéns, cara!" }
+    ]
+  }
+]

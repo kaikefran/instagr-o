@@ -1,0 +1,66 @@
+/* Identidade visual: preto e vermelho, inspirada no jogo Persona 5 */
+:root {
+  --fundo: #0d0d10;
+  --cartao: #17171c;
+  --borda: #2c2c34;
+  --texto: #f2f2f2;
+  --texto-suave: #a8a8b3;
+  --vermelho: #e60023;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 8px;
+  min-width: 44px;
+  min-height: 44px;
+}
+button:focus-visible, input:focus-visible { outline: 2px solid var(--vermelho); outline-offset: 2px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* cabeçalho */
+.header { position: sticky; top: 0; z-index: 10; background: var(--fundo); border-bottom: 2px solid var(--vermelho); }
+.header-conteudo { max-width: 470px; margin: 0 auto; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; }
+.logo { margin: 0; font-size: 1.7rem; font-style: italic; color: var(--vermelho); text-shadow: 2px 2px 0 #fff; }
+.header-icones { display: flex; gap: 16px; font-size: 1.4rem; }
+
+/* feed */
+.feed { max-width: 470px; margin: 0 auto; padding: 12px; }
+
+.stories { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 12px; }
+.story { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.story-foto { width: 60px; height: 60px; border-radius: 50%; padding: 2px; border: 3px solid var(--vermelho); }
+.story-nome { font-size: 0.75rem; color: var(--texto-suave); }
+
+/* post */
+.post { background: var(--cartao); border: 1px solid var(--borda); border-radius: 10px; margin-bottom: 20px; padding-bottom: 8px; overflow: hidden; }
+.post-topo { display: flex; align-items: center; gap: 8px; padding: 10px 12px; }
+.post-avatar { border-radius: 50%; }
+.post-tempo { color: var(--texto-suave); font-size: 0.85rem; }
+.post-imagem { width: 100%; height: auto; display: block; }
+.post-acoes { display: flex; padding: 4px 6px; }
+.post-acoes .salvar { margin-left: auto; }
+.curtido { color: var(--vermelho); }
+.post-curtidas, .post-legenda { margin: 4px 12px; }
+.post-comentarios { list-style: none; margin: 6px 12px; padding: 0; color: var(--texto); font-size: 0.95rem; }
+.post-comentarios li { margin-bottom: 4px; }
+
+.post-form { display: flex; border-top: 1px solid var(--borda); margin-top: 8px; padding: 4px 8px 0; }
+.post-form input { flex: 1; background: none; border: none; color: var(--texto); font-size: 1rem; padding: 10px 4px; }
+.post-form button { color: var(--vermelho); font-size: 1rem; font-weight: bold; }
+.post-form button:disabled { opacity: 0.4; cursor: not-allowed; }
